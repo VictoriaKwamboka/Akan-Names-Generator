@@ -15,8 +15,8 @@
 
 - 📫 How to reach me **victoria.kwamboka@student.moringaschool.com**
 
-## Portfolio Landing Page
-This project is all about my portfolio as a aspiring backend developer. It contains a few links to my current active projects.
+## Akan Names Generator
+This web application generates one's Akan name based on their gender and birth day.
 
 
 ## Set up Instructions and Contribution
@@ -28,6 +28,11 @@ This project is open source and your contribution is highly welcome by following
   <li> Open an issue to help me understand what changes you'd like to make.
   <li> Create a pull request.
  </ul>
+ 
+## Behavior Driven Development
+i) The user inputs their birthdate.
+ii) The user picks their gender
+iii) Based on the information and whether the user is male or female, the application finds out ......................
 
 ## Copyright and Licensing
 [MIT](https://choosealicense.com/licenses/mit/)
