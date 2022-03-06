@@ -1,15 +1,12 @@
 // defining variables
 
+// let yearOfBirth = document.querySelector('.nativeDatePicker')
 
-var nativePicker = document.querySelector('.nativeDatePicker')
-let yearOfBirth = document.querySelector('.nativeDatePicker')
+// console.log(typeof(yearOfBirth))
 
-
-const birthday = Date(yearOfBirth)
-const day = birthday.getDay()
-
-
-alert(day)
-
+$('.datepicker').pickadate()
+let yearOfBirth = new Date(date)
+const birthday = yearOfBirth.getDay();
+alert(birthday)
 
 
