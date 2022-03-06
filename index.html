@@ -31,29 +31,23 @@
                     <span class="validity"></span>
                 </div>
 
-                <label for="gender">
-                    <p>Select your gender: </p>
-                    Male
-                    <input id="male-input" type="radio" name="gender" value="male" required>
-                    Female
-                    <input id="female-input" type="radio" name="gender" value="female" required>
 
-                </label>
-                <br><br>
-                <input id="get-name" type="submit" name="" value="Generate name">
-                <br><br>
-            </form>
-            <form onsubmit="return clearInput()">
-                <input class="clear" type="submit" value="Clear input">
-            </form>
+                <div class="selector">
+                    <select name="gender" id="gender">
+                        Male
+                        <input id="gender" type="radio" name="gender" value="male" required>
+                        Female
+                        <input id="gender" type="radio" name="gender" value="female" required>
+                    </select>
+                </div>
 
-
-            <h4 id=display-name><strong>Your Akan name will be displayed below:</strong></h4>
-            <p id="result"></p>
-
+                <br>
+                <h4 id=display-name><strong>Your Akan name is: </strong></h4>
+                <p id="result"></p>
 
             </form>
         </div>
+        <div class="result"></div>
 
 
 

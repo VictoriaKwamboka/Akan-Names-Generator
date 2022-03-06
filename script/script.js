@@ -2,10 +2,10 @@
 
 function generateAkanName() {
     
-    birthDay = document.getElementById('date').value
+    birthDay = document.getElementById("date").value
     gender = document.getElementsById("gender").value
     
-    birthDay = new Date(birthDay)
+    birthDay = new Date(birthDay);
 
     // defining variables
     let dayOfBirth = birthDay.getDay();
@@ -33,9 +33,13 @@ function generateAkanName() {
 
     let akanName;
 
+
+    //define the control flows to be satisfied for the action to be taken
+
     if (daysOfWeek == 0 && gender == "female") {
-        bornDay = "Saturday";
+        dayBorn = "Saturday";
         akanName = femaleNames[0];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
     } else if (dayOfTheWeek == 0 && gender == "male") {
         bornDay = "Saturday";
         akanName = maleNames[0];
@@ -90,7 +94,8 @@ function generateAkanName() {
     }else{
         alert('Please enter a valid date!')
     }
-
+    
+    
 
 
 
