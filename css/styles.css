@@ -1,35 +1,71 @@
-body{
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(/images/ghana-flag.jpg);
+body {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/images/ghana-flag.jpg);
+  filter: blur(50%);
 }
-h2{
-    padding: 10px;
-    text-align: center;
-    font-size: 40px;
-}
-p{
-    font-family: Arial, Helvetica, sans-serif;
-}
-label {
-    display: flex;
-    align-items: center;
-  }
-  
-  span::after {
-    padding-left: 5px;
-  }
-  
-  input:invalid + span::after {
-    content: '✖✖';
-    color: red;
-  }
-  
-  input:valid+span::after {
-    content: '✓✓';
-    color: green;
-  }
-  
+.card-body{
+  background-color: beige;
+  width: 60%;
+  text-align: center;
+  font-size: large;
+  position: relative;
+  left: 20%;
+  border: 4px solid black;
+  border-radius: 20px;
+  padding: 5%;
 
+}
+
+h2 {
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  display: block;
+  align-items: center;
+  font-size: x-large;
+  padding: 1em;
+  color: greenyellow;
+}
+
+span::after {
+  padding-left: 5px;
+}
+
+input:invalid+span::after {
+  content: '✖✖';
+  color: red;
+}
+
+input:valid+span::after {
+  content: '✓✓';
+  color: green;
+}
+
+form {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  text-align: center;
+  /* box-shadow: 5px 5px 5px black; */
+}
+
+.datepicker label,
+.selector label {
+  text-align: center;
+
+}
+#result{
+  color: cyan;
+  font-size: x-large;
+  text-align: center;
+}

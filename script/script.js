@@ -2,8 +2,8 @@
 
 function generateAkanName() {
     
-    birthDay = document.getElementById("date").value
-    gender = document.getElementsById("gender").value
+    birthDay = document.getElementById("birthday").value
+    gender = document.getElementById("gender").value
     
     birthDay = new Date(birthDay);
 
@@ -19,8 +19,8 @@ function generateAkanName() {
         "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
     ];
 
-    let akanName;
-    let dayBorn;
+    let akanName="";
+    let dayBorn= "";
 
 
     //define the control flows to be satisfied for the action to be taken
@@ -29,6 +29,7 @@ function generateAkanName() {
         dayBorn = "Sunday";
         akanName = femaleNames[0];
         document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
+        
     } else if (dayOfBirth == 0 && gender == "male") {
         dayBorn = "Sunday";
         akanName = maleNames[0];
@@ -39,7 +40,7 @@ function generateAkanName() {
         dayBorn = "Monday";
         akanName = femaleNames[1];
         document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
-    } else if (dayOfTheWeek == 1 && gender == "male") {
+    } else if (dayOfBirth == 1 && gender == "male") {
         dayBorn = "Monday";
         akanName = maleNames[1];
         document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
