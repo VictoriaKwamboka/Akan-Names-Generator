@@ -30,9 +30,11 @@ This project is open source and your contribution is highly welcome by following
  </ul>
  
 ## Behavior Driven Development
-i) The user inputs their birthdate.
-ii) The user picks their gender
-iii) Based on the information and whether the user is male or female, the application finds out your Akan name and outputs it together with the name that you were born in.
+<ol>
+
+<li>The user inputs their birthdate.
+<li>The user picks their gender
+<li>Based on the information and whether the user is male or female, the application finds out your Akan name and outputs it together with the name that you were born in.
 
 ## Copyright and Licensing
 [MIT](https://choosealicense.com/licenses/mit/)
