@@ -9,7 +9,15 @@ let yearOfBirth = new Date(date)
 const birthday = yearOfBirth.getDay();
 
 
+//function to get the gender picked by the user
 
+function genderPicked(){
+    for (let gender of genders){
+        if (gender.checked){
+            returngender.value
+        }
+    }
+}
 
 
 //define arrays with days of the week
