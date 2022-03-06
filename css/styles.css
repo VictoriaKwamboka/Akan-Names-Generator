@@ -5,5 +5,9 @@ body{
     background-size: cover;
     background-image: url(/images/ghana-flag.jpg);
 }
-
+h2{
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
 
