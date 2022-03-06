@@ -9,7 +9,6 @@ function generateAkanName() {
 
     // defining variables
     let dayOfBirth = birthDay.getDay();
-    let monthOfBirth = birthDay.getMonth() + 1;
 
 
 
@@ -37,68 +36,74 @@ function generateAkanName() {
     //define the control flows to be satisfied for the action to be taken
 
     if (daysOfWeek == 0 && gender == "female") {
-        dayBorn = "Saturday";
+        dayBorn = "Sunday";
         akanName = femaleNames[0];
         document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
     } else if (dayOfTheWeek == 0 && gender == "male") {
-        bornDay = "Saturday";
+        bornDay = "Sunday";
         akanName = maleNames[0];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
 
 
     } else if (dayOfTheWeek == 1 && gender == "female") {
-        bornDay = "Sunday";
+        bornDay = "Monday";
         akanName = femaleNames[1];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
     } else if (dayOfTheWeek == 1 && gender == "male") {
-        bornDay = "Sunday";
+        bornDay = "Monday";
         akanName = maleNames[1];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
 
 
     } else if (dayOfTheWeek == 2 && gender == "female") {
-        bornDay = "Monday";
+        bornDay = "Tuesday";
         akanName = femaleNames[2];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
     } else if (dayOfTheWeek == 2 && gender == "male") {
-        bornDay = "Monday";
+        bornDay = "Tuesday";
         akanName = maleNames[2];
-
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
 
     } else if (dayOfTheWeek == 3 && gender == "female") {
-        bornDay = "Tuesday";
+        bornDay = "Wednesday";
         akanName = femaleNames[3];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
     } else if (dayOfTheWeek == 3 && gender == "male") {
-        bornDay = "Tuesday";
+        bornDay = "Wednesday";
         akanName = maleNames[3];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
 
 
     } else if (dayOfTheWeek == 4 && gender == "female") {
-        bornDay = "Wednesday";
+        bornDay = "Thursday";
         akanName = femaleNames[4];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
     } else if (dayOfTheWeek == 4 && gender == "male") {
-        bornDay = "Wednesday";
+        bornDay = "Thursday";
         akanName = maleNames[4];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
 
 
     } else if (dayOfTheWeek == 5 && gender == "female") {
-        bornDay = "Thursday";
+        bornDay = "Friday";
         akanName = femaleNames[5];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
     } else if (dayOfTheWeek == 5 && gender == "male") {
-        bornDay = "Thursday";
+        bornDay = "Friday";
         akanName = maleNames[5];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
 
 
     } else if (dayOfTheWeek == 6 && gender == "female") {
-        bornDay = "Friday";
+        bornDay = "Saturday";
         akanName = femaleNames[6];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
     } else if (dayOfTheWeek == 6 && gender == "male") {
-        bornDay = "Friday";
+        bornDay = "Saturday";
         akanName = maleAkanNames[6];
+        document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
     }else{
         alert('Please enter a valid date!')
     }
     
-    
-
-
-
-
-
 }
