@@ -87,6 +87,8 @@ function generateAkanName() {
     } else if (dayOfTheWeek == 6 && gender == "male") {
         bornDay = "Friday";
         akanName = maleAkanNames[6];
+    }else{
+        alert('Please enter a valid date!')
     }
 
 
