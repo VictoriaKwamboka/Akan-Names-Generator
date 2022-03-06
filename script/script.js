@@ -66,7 +66,7 @@ function generateAkanName() {
 
 
     } else if (dayOfBirth == 4 && gender == "female") {
-        bornDay = "Thursday";
+        dayBorn = "Thursday";
         akanName = femaleNames[4];
         document.getElementById('result').textContent = "You were born on a " + dayBorn + " , your Akan name is " + akanName;
     } else if (dayOfBirth == 4 && gender == "male") {
