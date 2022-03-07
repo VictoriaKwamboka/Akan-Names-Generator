@@ -2,25 +2,18 @@
 
 function generateAkanName() {
     
-    birthDay = document.getElementById("birthday").value
-    gender = document.getElementById("gender").value
+    let date = document.getElementById("birthday").value
+    let gender = document.getElementById("gender").value
     
-    birthDay = new Date(birthDay);
+   const birthDay = new Date(date);
 
     // defining variables
-    let dayOfBirth = birthDay.getDay();
+    const dayOfBirth = birthDay.getDay();
 
     // create arrays with female and male Akan names
-    maleNames = [
-        "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
-    ];
+    const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
-    femaleNames = [
-        "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
-    ];
-
-    let akanName="";
-    let dayBorn= "";
+    const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 
     //define the control flows to be satisfied for the action to be taken

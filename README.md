@@ -38,8 +38,12 @@ This project is open source and your contribution is highly welcome by following
 
 ## Copyright and Licensing
 [MIT](https://choosealicense.com/licenses/mit/)
+<<<<<<< HEAD
   <br>
 &copy; Victoria Kwamboka(2022)
+=======
+  &copy; Victoria Kwamboka(2022)
+>>>>>>> 4d59f83cd771e5b210e3b3e4942876d4d4da2bf2
 
 
 <h3 align="left">Connect with me:</h3>
